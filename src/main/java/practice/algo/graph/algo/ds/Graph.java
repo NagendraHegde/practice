@@ -14,6 +14,12 @@ import java.util.List;
 public interface Graph<V> {
 
     /**
+     * returns the total number of nodes in the graph
+      */
+    public int getSize();
+
+
+    /**
      *
      * @param startNode
      * @param endNode

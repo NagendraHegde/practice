@@ -17,6 +17,10 @@ public class GraphAdjacencyListImpl implements Graph<Integer> {
         adjList = new LinkedList[size];
     }
 
+    public int getSize(){
+        return size;
+    }
+
     public void addEdge(final Integer startNode, final Integer endNode) {
 
         if (startNode >= size || endNode >= size || startNode < 0 || endNode < 0) {
@@ -36,7 +40,7 @@ public class GraphAdjacencyListImpl implements Graph<Integer> {
                             " than size %s or be less than zero", startNode, endNode, size));
         }
 
-        if(adjList[startNode].contains(endNode)) adjList[startNode].remove(endNode);
+        adjList[startNode].remove(endNode);
     }
 
     public void incrementNode() {
