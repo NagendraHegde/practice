@@ -1,6 +1,8 @@
 package practice.algo.graph.algo.ds;
 
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 import static java.lang.String.*;
 
@@ -8,6 +10,7 @@ public class GraphAdjacencyListImpl implements Graph<Integer> {
 
     private LinkedList<Integer>[] adjList;
     private int size;
+    private int currentPosition = 0;
 
     public GraphAdjacencyListImpl(final int size) {
         this.size = size;
@@ -34,6 +37,23 @@ public class GraphAdjacencyListImpl implements Graph<Integer> {
         }
 
         if(adjList[startNode].contains(endNode)) adjList[startNode].remove(endNode);
+    }
+
+    public void incrementNode() {
+        this.adjList[currentPosition++] = new LinkedList<Integer>();
+    }
+
+    public void decrementNode() {
+        if(size == 0){
+            throw new RuntimeException("No nodes to remove/decrement");
+        }
+        Arrays.stream(adjList).forEach(node -> node.remove(size));
+        this.adjList[size] = null;
+        size--;
+    }
+
+    public List<Integer> getConnectedNodes(Integer node) {
+        return adjList[node];
     }
 
 }

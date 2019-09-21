@@ -1,6 +1,8 @@
 package practice.algo.graph.algo.ds;
 
 
+import java.util.List;
+
 /**
  * @author nagendrahegde4sdmcet@gmail.com
  *
@@ -9,7 +11,7 @@ package practice.algo.graph.algo.ds;
  * Graph can be directed or undirected, upto the implementation
  */
 
-public interface Graph<T> {
+public interface Graph<V> {
 
     /**
      *
@@ -17,7 +19,7 @@ public interface Graph<T> {
      * @param endNode
      *
      */
-    public void addEdge(T startNode, T endNode);
+    public void addEdge(V startNode, V endNode);
 
 
     /**
@@ -25,5 +27,23 @@ public interface Graph<T> {
      * @param startNode
      * @param endNode
      */
-    public void removeEdge(T startNode, T endNode);
+    public void removeEdge(V startNode, V endNode);
+
+    public void incrementNode();
+
+    /**
+     * removes the last node (of highest value) from the graph,
+     * and removes all the edges connected to it
+     */
+    public void decrementNode();
+
+
+    /**
+     *
+     * @param node
+     * @return all the nodes that are connected to passed node via edges
+     */
+    public List<V> getConnectedNodes(V node);
+
+
 }

@@ -9,7 +9,16 @@ import practice.algo.graph.algo.ds.Graph;
 
 public class GraphUtil {
 
+    /**
+     *
+     * @param graph
+     * @return topologically sorted integer array of nodes
+     *
+     * https://www.geeksforgeeks.org/topological-sorting/
+     */
     public Integer[] topolgicalSort(Graph<Integer> graph){
+
+
         return null;
     }
 }
