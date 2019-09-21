@@ -9,7 +9,7 @@ package practice.algo.graph.algo.ds;
  * Graph can be directed or undirected, upto the implementation
  */
 
-public interface Graph<T, V> {
+public interface Graph<T> {
 
     /**
      *
@@ -17,7 +17,7 @@ public interface Graph<T, V> {
      * @param endNode
      *
      */
-    public void addEdge(T startNode, V endNode);
+    public void addEdge(T startNode, T endNode);
 
 
     /**
@@ -25,5 +25,5 @@ public interface Graph<T, V> {
      * @param startNode
      * @param endNode
      */
-    public void removeEdge(T startNode, V endNode);
+    public void removeEdge(T startNode, T endNode);
 }
