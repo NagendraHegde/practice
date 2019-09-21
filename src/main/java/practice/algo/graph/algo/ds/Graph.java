@@ -8,7 +8,8 @@ import java.util.List;
  *
  * Graph data structure, containing nodes and edges.
  * Nodes have specific values assigned to them, Edges connect nodes.
- * Graph can be directed or undirected, upto the implementation
+ * Graph can be directed or undirected, upto the implementation.
+ * The graph node size is not changeable once created.
  */
 
 public interface Graph<V> {
@@ -34,8 +35,6 @@ public interface Graph<V> {
      * @param endNode
      */
     public void removeEdge(V startNode, V endNode);
-
-    public void incrementNode();
 
     /**
      * removes the last node (of highest value) from the graph,

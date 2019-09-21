@@ -15,6 +15,10 @@ public class GraphAdjacencyListImpl implements Graph<Integer> {
     public GraphAdjacencyListImpl(final int size) {
         this.size = size;
         adjList = new LinkedList[size];
+        for (int i = 0; i < size; i++) {
+            adjList[i] = new LinkedList<>();
+        }
+        this.adjList[currentPosition++] = new LinkedList<Integer>();
     }
 
     public int getSize(){
@@ -41,10 +45,6 @@ public class GraphAdjacencyListImpl implements Graph<Integer> {
         }
 
         adjList[startNode].remove(endNode);
-    }
-
-    public void incrementNode() {
-        this.adjList[currentPosition++] = new LinkedList<Integer>();
     }
 
     public void decrementNode() {

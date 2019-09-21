@@ -22,7 +22,7 @@ public class GraphUtil {
      * <p>
      * https://www.geeksforgeeks.org/topological-sorting/
      */
-    public Integer[] topolgicalSort(final GraphAdjacencyListImpl graph) {
+    public static Integer[] topolgicalSort(final GraphAdjacencyListImpl graph) {
 
         final Stack<Integer> stack = new Stack<>();
         final boolean[] visited = new boolean[graph.getSize()];
@@ -43,7 +43,7 @@ public class GraphUtil {
     }
 
 
-    private void doTopologicalSort(final GraphAdjacencyListImpl graph,
+    private static void doTopologicalSort(final GraphAdjacencyListImpl graph,
                                    final int currentNode, final boolean[] visited,
                                    final Stack<Integer> stack) {
 
