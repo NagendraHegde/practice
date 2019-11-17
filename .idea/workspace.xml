@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6143f65-0b1e-4af8-9dc6-30c045b5b187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/array/ElementSumFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/array/MatrixProblemSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/dp/LongestSubsequenceFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/LongestCommonSubsequenceFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/string/SequenceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/string/StringWordReverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/ds/linkedlist/LinkedListCloner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/ds/linkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/ds/linkedlist/NodeRand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/ds/tree/TopViewFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/ds/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/util/io/InputOutputForGFG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/DjkstraAlgoEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/ds/WeightedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/ds/WeightedGraphArrayImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,7 +63,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubsequenceFinder">
+  <component name="RunManager" selected="Application.DjkstraAlgoEmulator">
+    <configuration name="DjkstraAlgoEmulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.algo.graph.algo.DjkstraAlgoEmulator" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.algo.graph.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestSubsequenceFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.algo.dp.LongestSubsequenceFinder" />
       <module name="practice" />
@@ -120,20 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scratch (2)" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scratch" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DjkstraAlgoEmulator" />
         <item itemvalue="Application.LongestSubsequenceFinder" />
         <item itemvalue="Application.StringWordReverser" />
         <item itemvalue="Application.SequenceGenerator" />
         <item itemvalue="Java Scratch.Boom" />
-        <item itemvalue="Java Scratch.Scratch (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +169,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/DjkstraAlgoEmulator.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
