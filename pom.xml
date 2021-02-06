@@ -6,6 +6,7 @@
 
     <groupId>practice</groupId>
     <artifactId>practice</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -19,6 +20,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>practice.ticketbooking</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

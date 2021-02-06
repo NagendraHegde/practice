@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6143f65-0b1e-4af8-9dc6-30c045b5b187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/DjkstraAlgoEmulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/ds/WeightedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/ds/WeightedGraphArrayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.ticketbooking/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.ticketbooking/src/main/java/practice/booking/core/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.ticketbooking/src/main/java/practice/booking/core/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.ticketbooking/src/main/java/practice/booking/core/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.ticketbooking/src/main/java/practice/booking/types/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice.ticketbooking/src/main/java/practice/booking/types/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/array/IslandCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/algo/array/SlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/ds/linkedlist/ListModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/deadlock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/deadlock/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/deadlock/ThreadImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/producerconsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/producerconsumer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/producerconsumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/producerconsumer/ResourceQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/java/multithreading/producerconsumer/WaitingThreadImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/algo/array/ElementSumFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/algo/array/ElementSumFinder.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +54,15 @@
   </component>
   <component name="ProjectId" id="1S5b30gn0Z3Qw9GV8jXyWOwbq1z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
@@ -51,19 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.DjkstraAlgoEmulator">
+  <component name="RunManager" selected="Application.ListModifier">
     <configuration name="DjkstraAlgoEmulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.algo.graph.algo.DjkstraAlgoEmulator" />
       <module name="practice" />
@@ -77,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubsequenceFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.algo.dp.LongestSubsequenceFinder" />
+    <configuration name="ListModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.ds.linkedlist.ListModifier" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.algo.dp.*" />
+          <option name="PATTERN" value="practice.ds.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.algo.string.SequenceGenerator" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.java.multithreading.deadlock.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.algo.string.*" />
+          <option name="PATTERN" value="practice.java.multithreading.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringWordReverser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.algo.string.StringWordReverser" />
+    <configuration name="SlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.algo.array.SlidingWindow" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.algo.string.*" />
+          <option name="PATTERN" value="practice.algo.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,22 +130,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boom" type="Java Scratch" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Boom" />
-      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.java" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.booking.core.Test" />
+      <module name="practiceticketbooking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.booking.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListModifier" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SlidingWindow" />
         <item itemvalue="Application.DjkstraAlgoEmulator" />
-        <item itemvalue="Application.LongestSubsequenceFinder" />
-        <item itemvalue="Application.StringWordReverser" />
-        <item itemvalue="Application.SequenceGenerator" />
-        <item itemvalue="Java Scratch.Boom" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,6 +202,56 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1611027407334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611027407334" />
+    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1611027407334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611027407334" />
+    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1611027407334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611027407334" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1611027407334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611027407334" />
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom" timestamp="1610960490356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610960490356" />
+    <state width="1493" height="245" key="GridCell.Tab.1.center" timestamp="1610960490356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610960490356" />
+    <state width="1493" height="245" key="GridCell.Tab.1.left" timestamp="1610960490356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610960490356" />
+    <state width="1493" height="245" key="GridCell.Tab.1.right" timestamp="1610960490356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610960490356" />
+    <state width="1493" height="245" key="GridCell.Tab.2.bottom" timestamp="1610949655073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610949655073" />
+    <state width="1493" height="245" key="GridCell.Tab.2.center" timestamp="1610949655073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1610949655073" />
+    <state width="1493" height="245" key="GridCell.Tab.2.left" timestamp="1610949655073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1610949655073" />
+    <state width="1493" height="245" key="GridCell.Tab.2.right" timestamp="1610949655073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="245" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1610949655073" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -177,6 +259,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/algo/graph/algo/DjkstraAlgoEmulator.java</url>
           <line>29</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/algo/array/SlidingWindow.java</url>
+          <line>8</line>
+          <properties class="practice.algo.array.SlidingWindow" method="printMax">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

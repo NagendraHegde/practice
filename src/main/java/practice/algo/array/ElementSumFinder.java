@@ -2,6 +2,8 @@ package practice.algo.array;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.stream.Collectors;
 
 public class ElementSumFinder {
 
@@ -32,6 +34,7 @@ public class ElementSumFinder {
         }
 
         return Arrays.copyOfRange(elements, start, end - 1);
+
 
     }
 
